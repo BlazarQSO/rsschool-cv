@@ -30,13 +30,13 @@ My main goal is to become a developer and become a part of the fastest growing i
 
 **JavaScript**  
 ```javascript
-let buttons = {
-	"btn": {
-		title: "btn",
-		onClickHandler: function (e) {
-			return () => extendedMode();
-		}
-	},
+const buttons = {
+    'btn': {
+	title: 'btn',
+	onClickHandler: function (e) {
+	    return () => extendedMode(e);
+	}
+    },
 };
 ```
 
@@ -44,21 +44,22 @@ let buttons = {
 ## Experience:
 
 HtmlAcademy.ru: [Achievements](https://htmlacademy.ru/profile/id1185755/achievements)  
-Codecademy.com: [Achievements](https://www.codecademy.com/users/BlazarQSO/achievements)  
+Codecademy.com: [Achievements](https://www.codecademy.com/users/BlazarQSO/achievements)
+RS School (09.09.2019-06.02.2020): [Certificate](https://app.rs.school/certificate/l5r4imel)
 **ITVDN** tasks from courses: C#, ASP.NET MVC, JavaScript, SQL, EF  
 My projects in GitHub:  
-
-
-1. JavaScript: [My Calculator](https://github.com/BlazarQSO/MyCalc) 
-   1. [gh-pages](https://blazarqso.github.io/MyCalc/)     
-1. jQuery: [Memory Cards Game](https://github.com/BlazarQSO/MemoryCardsGame)  
-   1. [gh-pages](https://blazarqso.github.io/MemoryCardsGame/)  
-1. ASP.NET MVC: [Sport Statistics](https://github.com/BlazarQSO/SportStatistics)  
-
+1. HTML5, LESS, BEM: [Design of layout](https://github.com/BlazarQSO/repair-design-project) 
+   1. [deploy](https://design-project-sergey-ivkov.netlify.com/)     
+1. HTML5, CSS3, Web API, Core JS: [Weather forecast](https://github.com/BlazarQSO/fancy-weather)
+   1. [deploy](https://fancy-weather-sergey-ivkov.netlify.com/)  
+1. HTML5, SCSS, webpack, Core JS, Unit test, BEM: [Piskel Clone](https://github.com/BlazarQSO/simple-piskel-clone) 
+   1. [deploy](https://piskel-clone-sergey-ivkov.netlify.com/)     
+1. React.JS, Html5, scss, webpack: [songbird](https://github.com/BlazarQSO/songbird/tree/songbird) 
+   1. [deploy](https://songbird-iukou-siarhei.netlify.com/)     
 -----
 ## Education:
 
-2003-2005: Belarusian State University, Applied Mathematics and Computer Science (*didn't finish*).  
+2003-2006: Belarusian State University, Applied Mathematics and Computer Science (*didn't finish*).  
 ITVDN online courses: C# (Starter, Essential, Professional), JavaScript (Essential, Advanced) and e.t.  
 
 -----
